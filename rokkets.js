@@ -7,6 +7,7 @@ console.log(rokket(4)(2)(2)) // this outputs 16
 console.log(rokket(8)(2)(1)) // this also outputs 16
 This function must work for any three integer numbers.
 */
+
 const rokket= (a)=> {
     return (b) => {
       return (c) => {

@@ -103,6 +103,7 @@ Example:
 console.log(rokket([1, 2, 5], [2, 1, 6])) // this outputs [1, 2, 5, 6]
 console.log(rokket([1, 2, 3], [4, 5, 6])) // this outputs [1, 2, 3, 4, 5, 6]
 */
+
 const rokketUniqueNumbers = (arr1, arr2) =>{
 const arr= arr1.concat(arr2)
     return arr.filter((value, index, self) => {
